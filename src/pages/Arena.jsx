@@ -27,7 +27,7 @@ const Arena = () => {
                 {p2 && <Card title={p2.name}><img src={p2.sprites.front_default} alt="" /><br />{p2.stats.map(s => <p key={s.stat.name}>{s.stat.name}: {s.base_stat}</p>)}</Card>}
             </div>
 
-            {winner && <h3 style={{ marginTop: 24 }}>🏆 Победитель: {winner}</h3>}
+            {winner && <h3 style={{ marginTop: 24 }}> Победитель: {winner}</h3>}
         </div>
     );
 };
